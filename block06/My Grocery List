@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="styles.css">
+</head>
+  <body>
+    <header>
+      <h1>MY SUPER ORGANIZED GROCERY LIST
+      </h1>
+    </header>
+    
+    <h2 class="spacer-bottom">REFRIGERATED</h2>
+    <div class="container"> <!-- this will be the flex container -->
+      <section class="spacer-right">
+        <h3>Fruit</h3>
+        <ol> 
+          <!-- 
+            ol = ordered list, ul = unordered list
+            you should not have <li> without a ol or ul above
+              -->
+          <li>Apples</li>        
+          <li>Grapes</li>
+          <li>Pineapple</li>
+          <li>Orange Juice</li>
+        </ol>
+      </section>
+      <section>
+        <h3>Meat</h3>
+        <ul>
+          <li>Chicken thighs</li>        
+          <li>Lean ground beef</li>
+          <li>Turkey bacon</li>
+          <li>Deli meat</li>
+        </ul>
+      </section>
+    </div>
+    
+    <div class="spacer"></div>
+    
+    <h2 class="spacer-bottom">PANTRY</h2>
+    <div class="container"> <!-- this will be the flex container -->
+      <section class="spacer-right">
+        <h3>Cans/Jars</h3>
+        <ul>
+          <li>Tomatoes</li>        
+          <li>Baked Beans</li>
+          <li>Peanut Butter</li>
+          <li>Corn</li>
+        </ul>
+      </section>
+      <section>
+        <h3>Dry Goods</h3>
+        <ul>
+          <li>White Rice</li>        
+          <li>Angel Hair Pasta</li>
+          <li>Penne Pasta</li>
+          <li>Oats</li>
+        </ul>
+      </section>
+    </div>
+  </body>
+</html>
