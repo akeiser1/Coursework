@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+   <style>
+    li {
+    list-style-type: none;
+    margin: 10px;
+    padding: 10px;
+    color: white
+}
+
+ul{
+    display: flex;
+
+}
+
+nav{
+    background-color: blue;
+    position: sticky;
+    top:20px
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 768px) {
+    main{
+        flex-direction: column;
+        align-items: center;
+    }
+    img{
+        width: 30%;
+        padding: 10px;
+    }
+    ul{
+        flex-direction: column;
+        align-items: center;
+        padding:0px
+    }
+  
+}
+    
+   </style>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Services</li>
+      </ul>
+    </nav>
+    <main>
+      <img src="https://via.placeholder.com/150/000000/FFFFFF/" />
+      <img src="https://via.placeholder.com/150/000000/FFFFFF/" />
+      <img src="https://via.placeholder.com/150/000000/FFFFFF/" />
+    </main>
+  </body>
+</html>
